@@ -13,7 +13,16 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.1.RELEASE</version>
-    </parent>
+		</parent>
+
+		<build>
+			<plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+			</plugins>	
+		</build>
 
     <dependencies>
         <!-- Spring Boot web依赖 -->
